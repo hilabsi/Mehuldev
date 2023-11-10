@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "loyal-throne-293315",
+  "private_key_id": "db400471722fe69c59354debf2f8aef8bbcd044e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDFWpwREGPWt15N\nm/jTvquCAACYMjGby8rI2oNvEiXLpsnJtm93EC2/jR6+Vq/lkCY43wxqwP7iXXV1\nwXQtOu0W3SR+IpR9c0Y/738Ppxr+b0f2EptszgMi2IJRbGLBUtytj6BrO2ijjerM\npZjivRsJpOfPzasl1Ba+g50RBh4nYtE/y7jikUGEDTfIlt6UYHys2oD+uhb01x5C\nyPtQ3wa0dGATysarXIt3oSd7UbSuCUBEEoVwOKyTjA75b3co+m+HRkyF598/32jp\nWNKYs5SUnz3pkZwxzc1HkEFEMlDO5r7LGJW/GXuHXrAy+VAaeNAGWKRiYdBfj5bi\ncHQfIrVbAgMBAAECggEAHE7+VVGdNe7LmiT7W57dXyJnnhflFyHzuT05iTR4iMPT\nQhnnLJRSMPMp1nJSJ4ML2IXgyWyxowAg7yk2uZ4wOrgHRLM/ytbphsDwiurqFlZu\nuL9miARCXZHiROe1KrdGFvyj2CiHaUkxcErN/rLS2V6hhHn4niPUDLPi/c7Q2Hk1\nqnxeVjSY8w2F2qtkG0REPBvUWESUf+mkXzNdWX5ZrZj3j7rJidIQb9iXP6g/R/5k\ndjCepJnm7DYHDlA4wLnQ4d7Ty++EViR3z1HU4OlGRM+aAv8kmn0qOaUHeGKVkB3C\nCYTsHp1PCVpNzD6hjp6hpF5fyz7vzWBVnJXaba2WgQKBgQDslgBi1CrTiQq7RIRV\nPxvyUCa7Rudbe0rfWrOp13O6x3/qLJj9dfHwja6s3j5jCy4UZ0lscJOZOaD2lGKp\nTnlHhrgMp4VAQ/2ysfbuYUcHvUTi6taFE8iA0O7A6HNn9c/HgKsMryuEGJ9boy1B\nxFQyeeLkAWjXnorpphgOGJ804QKBgQDVjHSNYFM+smoI1CMgfVyEsAfe81PPTfRW\nVuzWG4yUIODJGv+k9IrN/E9Y0iMpG7P2fWOk+YetiVAJlt4+ljop6r3XldI/Q2Oz\ndmzn76d3apLCCxAQvKB3SVrnT8xmYxo2JNuUxDjBYtZyP3gF6jniujD6FbzQjQT1\nW4y6rPS1uwKBgFDLZTRa+oklGtobKwoltDiLML7yFt6B+27Nfd+5qVcW/FMPieu9\nFLOu3wFAIJQYZFMpdsSmqXFBYfvzbsIc/4PyuPXxW6s3zPLynb6I0AYPl+/afQoT\nWHzNXUvZ1lehdaTPBxsc00KYWgukbTcxggN+5oIxDQndpdjnFP3zYKNhAoGATERj\ng/J5CJVTxV9uRDZBiqoLxZaFwi4HK6bT4wvnwyeS4IAh+VnVEQghlolGQXJBbbEO\nm2b7DAFUcnhNW3DvyPSrZIl/k1SQERIkhxlSaBXJ4D9vN2sGrFOogaBAUfjm7Ztw\nSMtjsb2I9TixtvsWPWFeCJMm4hzbPn253xnSM+0CgYEA7AcksKwcp6jIhPFXMqku\nOvk/Z2OnOh3FKkv7VEQMTj9NDcc2pebj6nRRf7PS9TAta/t0GuSf64Z9ewDPZL4V\n6ltASGul8ojkLHGc3bqXBzR+WIRCEVoZDXsCP3yyq9ufl9NhrvWu2snc6mYNFZoI\nYADneitA7+7h5XONyQZnkOw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-tbf35@loyal-throne-293315.iam.gserviceaccount.com",
+  "client_id": "108022614409655301850",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-tbf35%40loyal-throne-293315.iam.gserviceaccount.com"
+}

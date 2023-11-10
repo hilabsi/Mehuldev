@@ -1,0 +1,272 @@
+[12-Oct-2023 11:47:47 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[12-Oct-2023 11:48:42 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[12-Oct-2023 11:48:51 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[12-Oct-2023 11:55:28 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[12-Oct-2023 11:55:38 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[12-Oct-2023 11:59:28 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[12-Oct-2023 11:59:35 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[12-Oct-2023 13:12:31 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[17-Oct-2023 09:29:30 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[31-Oct-2023 08:00:11 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[31-Oct-2023 08:02:18 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[31-Oct-2023 08:03:49 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[31-Oct-2023 08:04:38 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[31-Oct-2023 08:04:40 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[01-Nov-2023 05:23:41 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[01-Nov-2023 05:27:00 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[01-Nov-2023 10:33:40 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[02-Nov-2023 05:45:56 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[02-Nov-2023 05:46:32 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[02-Nov-2023 05:47:05 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[02-Nov-2023 05:52:30 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[02-Nov-2023 05:58:22 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[02-Nov-2023 05:58:26 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[02-Nov-2023 05:58:55 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[02-Nov-2023 06:00:09 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[02-Nov-2023 06:06:11 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[02-Nov-2023 07:09:03 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[02-Nov-2023 07:11:44 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[06-Nov-2023 13:46:02 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[06-Nov-2023 13:47:02 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[07-Nov-2023 07:00:45 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[07-Nov-2023 07:01:19 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[07-Nov-2023 07:01:55 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
+[07-Nov-2023 07:03:31 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Recursion detected in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php:91
+Stack trace:
+#0 /home/hilaborg/public_html/lobi_backend/vendor/symfony/http-foundation/JsonResponse.php(54): Illuminate\Http\JsonResponse->setData(Array)
+#1 /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php(32): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array, false)
+#2 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(40): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 128)
+#3 /home/hilaborg/public_html/lobi_backend/app/Support/helpers.php(122): Laravel\Lumen\Http\ResponseFactory->json(Array, 200, Array, 128)
+#4 /home/hilaborg/public_html/lobi_backend/app/Exceptions/Handler.php(78): other(500, Array)
+#5 /home/hilaborg/public_html/lobi_backend/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(205): App\Exceptions\Handler->rend in /home/hilaborg/public_html/lobi_backend/vendor/illuminate/http/JsonResponse.php on line 91
