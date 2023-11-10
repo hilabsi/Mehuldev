@@ -1,2 +1,0 @@
-# Mehuldev
-Lobi backend changes
